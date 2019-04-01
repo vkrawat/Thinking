@@ -1,0 +1,121 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+.bg{
+	top: 0;
+	height: 100%;
+	width: 100%;
+	left: 0;
+	position: absolute;
+	background-image: url(b.jpg);
+	background-size: cover;
+	display: flex;
+	justify-content: center;
+}
+.bg h1{
+
+	font-size: 100px;
+  color: #262626;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,-10%);
+  font-family: 'Acme', sans-serif;
+}
+.bg .sidenav {
+    height: 100%;
+  width: 0;
+  position:fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  text-align:center;
+}
+
+.bg .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  z-index: 1;
+
+}
+
+.bg .sidenav a:hover{
+  color: #f1f1f1;
+}
+
+.bg .sidenav .closebtn {
+  position: absolute;
+  top: 0%;
+ left: 0%;
+  font-size: 36px;
+
+
+}
+.bg .openbtn {
+  position: absolute;
+  top: 5%;
+ left: 2%;
+  font-size: 36px;
+
+
+}
+
+ .social{ text-decoration: none;
+	font-size: 1.6em;
+	padding: 1.5rem;
+	
+top: 5%;
+left:90%;
+	position: absolute;
+
+}
+.social a{
+  text-decoration: none;
+}
+
+.fa-facebook,.fa-twitter,.fa-instagram{
+	color: #262626;
+}
+.fa-facebook:hover,.fa-twitter:hover,.fa-instagram:hover,.bird a:hover,.cat a:hover{
+	color: #d5d5d5;
+}
+.bird{
+  
+  position: absolute;
+  top: 85%;
+  left: 20%;
+  color: #262626;
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+
+}
+.bird a{
+  text-decoration: none;
+   color: #262626;
+ }
+
+
+.cat{
+  
+  position: absolute;
+  top: 85%;
+  left: 80%;
+  color: #262626;
+  font-size: 40px;
+  font-family: 'Acme', sans-serif;
+
+}
+.cat a{
+  text-decoration: none;
+   color: #262626;
+}
